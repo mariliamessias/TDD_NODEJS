@@ -1,0 +1,29 @@
+{
+  "name": "tdd_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 2000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariliamessias/TDD_NODEJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariliamessias/TDD_NODEJS/issues"
+  },
+  "homepage": "https://github.com/mariliamessias/TDD_NODEJS#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
